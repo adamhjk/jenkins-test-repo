@@ -1,2 +1,2 @@
 #!/bin/bash -ex
-/usr/bin/ssh -i /Users/adam/jenkins/jenkins $1 $2 
+/usr/bin/ssh -o 'StrictHostKeyChecking no' -i /Users/adam/jenkins/jenkins $1 $2 
