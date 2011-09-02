@@ -8,6 +8,7 @@ cache_type               'BasicFile'
 cache_options( :path => "/tmp/.chef/checksums" )
 cookbook_path            ["#{current_dir}/cookbooks"]
 jenkins({
+  :repo_dir => current_dir,
   :git_user => "Jenkins CI",
   :git_email => "adam+jenkins@opscode.com",
   :env_to => "development"
