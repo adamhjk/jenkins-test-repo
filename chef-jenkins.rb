@@ -12,5 +12,6 @@ jenkins({
   :repo_url => 'git@github.com/adamhjk/jenkins-test-repo',
   :git_user => "Jenkins CI",
   :git_email => "adam+jenkins@opscode.com",
-  :env_to => "development"
+  :env_to => "development",
+  :branch => "master"
 })
