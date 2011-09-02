@@ -9,7 +9,7 @@ cache_options( :path => "/tmp/.chef/checksums" )
 cookbook_path            ["#{current_dir}/cookbooks"]
 jenkins({
   :repo_dir => current_dir,
-  :repo_url => 'git@github.com/adamhjk/jenkins-test-repo',
+  :repo_url => 'git@github.com:adamhjk/jenkins-test-repo',
   :git_user => "Jenkins CI",
   :git_email => "adam+jenkins@opscode.com",
   :env_to => "development",
