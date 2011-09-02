@@ -17,6 +17,7 @@
 # limitations under the License.
 #
 
+# Comments are fun
 package "apache2" do
   case node[:platform]
   when "centos","redhat","fedora","suse"
